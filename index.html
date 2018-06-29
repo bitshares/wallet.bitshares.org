@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width"/>
     <meta name="format-detection" content="telephone=no">
-    <title>BitShares</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; worker-src 'self' blob:; script-src https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/ 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data:;img-src 'self' data:;">
+    <title>BitShares 2.0.180629</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob:; worker-src 'self' blob:; script-src https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/ 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data: https://at.alicdn.com; img-src 'self' data:;">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="app.css">
     <style>
         body {
             background-color: #2a2a2a;
@@ -21,27 +20,10 @@
             font-size: 44px;
         }
     </style>
-    <script>
-        var ref = encodeURIComponent(document.referrer);
-        if (window.process && window.process.versions && window.process.versions['electron']) {
-            window.electron = window.process.versions['electron'];
-            window.remote = require('electron').remote;
-            window._$guid$_ = window.remote.getGlobal('guid');
-            window.app_version = window.remote.getGlobal('version');
-            ref = 'lw-' + window.process.platform + '-' + window.app_version + '-' + window.remote.getGlobal('guid');
-            window.onload = function(e){
-                var content = document.getElementById("content");
-                if (content) content.className = "electron " + window.process.platform;
-            }
-        }
-    </script>
-</head>
+<link href="vendor.e0b7b6099284ff8e7e0f.css" rel="stylesheet"><link href="app.9cf4b64aeacf5540c1ee.css" rel="stylesheet"></head>
 <body>
     <main id="content">
         <h1 class="centerDiv" style="">Loading...</h1>
     </main>
-
-<script src="app.js" charset="utf-8"></script>
-
-</body>
+<script type="text/javascript" src="vendor.8682147d5fc1f134c9db.js"></script><script type="text/javascript" src="app.9aad14121a616d7452ed.js"></script></body>
 </html>
