@@ -14965,6 +14965,23 @@ div:last-child .exchange-bordered {
   margin: 0 auto;
 }
 
+.darkTheme .grouped_order select {
+  float: right;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  border-bottom: 1px dotted #a09f9f;
+  font-size: 0.7rem;
+  height: 17px;
+  margin: 0 0 1px 10px;
+}
+
+.darkTheme .grouped_order select > option {
+  background-color: #6a6a6a;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -17450,6 +17467,23 @@ div:last-child .exchange-bordered {
   height: 100%;
   max-width: 500px;
   margin: 0 auto;
+}
+
+.lightTheme .grouped_order select {
+  float: right;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #242424;
+  border-bottom: 1px dotted #a09f9f;
+  font-size: 0.7rem;
+  height: 17px;
+  margin: 0 0 1px 10px;
+}
+
+.lightTheme .grouped_order select > option {
+  background-color: #fff;
 }
 
 .lightTheme .change-up {
@@ -19943,6 +19977,23 @@ div:last-child .exchange-bordered {
   margin: 0 auto;
 }
 
+.midnightTheme .grouped_order select {
+  float: right;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: #e0e0e0;
+  border-bottom: 1px dotted #a09f9f;
+  font-size: 0.7rem;
+  height: 17px;
+  margin: 0 0 1px 10px;
+}
+
+.midnightTheme .grouped_order select > option {
+  background-color: #353742;
+}
+
 #content.win32 {
   font-size: 90%;
 }
@@ -20154,7 +20205,7 @@ table > tbody > tr.control-row > td > input {
 }
 
 .op-table > tbody > tr > td:first-child {
-  min-width: 12rem;
+  width: 17rem;
 }
 
 .button-group > .button {
