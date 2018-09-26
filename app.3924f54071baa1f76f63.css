@@ -14831,6 +14831,10 @@ div:last-child .exchange-bordered {
   padding-right: 0;
 }
 
+.darkTheme .tab-no-background {
+  background-color: transparent !important;
+}
+
 .darkTheme .header-container {
   background-color: #3f3f3f;
 }
@@ -17370,6 +17374,10 @@ div:last-child .exchange-bordered {
 
 .lightTheme .footer {
   padding-right: 0;
+}
+
+.lightTheme .tab-no-background {
+  background-color: transparent !important;
 }
 
 .lightTheme .header-container {
@@ -19917,6 +19925,10 @@ div:last-child .exchange-bordered {
   padding-right: 0;
 }
 
+.midnightTheme .tab-no-background {
+  background-color: transparent !important;
+}
+
 .midnightTheme .header-container {
   background-color: black;
 }
@@ -20743,6 +20755,14 @@ span.icon-10x {
 
 .right-td {
   text-align: left;
+}
+
+.proposal-update {
+  padding-top: 5px;
+}
+
+.proposal-update li {
+  font-size: 0.9rem;
 }
 
 @charset "UTF-8";
