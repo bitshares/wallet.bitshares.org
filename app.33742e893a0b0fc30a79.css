@@ -11076,7 +11076,8 @@ div.account-drop-down a.button {
   background-color: transparent;
 }
 
-div.account-drop-down a:active.button, div.account-drop-down a:hover.button {
+div.account-drop-down a:active.button,
+div.account-drop-down a:hover.button {
   background-color: transparent !important;
 }
 
@@ -11104,13 +11105,15 @@ div.header-right-menu > .grp-menu-item {
   align-items: center;
 }
 
-.grp-menu-item > a, .grp-menu-item .button {
+.grp-menu-item > a,
+.grp-menu-item .button {
   padding: 0.5rem;
   font-size: 1rem;
 }
 
 @media only screen and (min-width: 75em) {
-  .grp-menu-item > a, .grp-menu-item .button {
+  .grp-menu-item > a,
+  .grp-menu-item .button {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
   }
@@ -11250,6 +11253,14 @@ ul.dropdown.header-menu li.desktop-only {
 
 .active-account {
   padding-right: 10px;
+}
+
+.header-dropdown-sub-link {
+  font-size: 0.85em;
+}
+
+.header-dropdown-sub-link.enabled:hover {
+  text-decoration: underline;
 }
 
 .help-content {
@@ -12560,6 +12571,11 @@ div:last-child .exchange-bordered {
   display: inline;
 }
 
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -13000,6 +13016,12 @@ div:last-child .exchange-bordered {
   background-color: #049cce;
 }
 
+.darkTheme .modal#marketPicker,
+.darkTheme .modal#settingsModal {
+  background-color: #2a2a2a;
+  border: 1px solid black;
+}
+
 .darkTheme .modal {
   color: #fff;
   background-color: #4b5158;
@@ -13286,6 +13308,14 @@ div:last-child .exchange-bordered {
 
 .darkTheme .header-container span.icon.lock-unlock > svg > path {
   fill: #049cce;
+}
+
+.darkTheme .header-dropdown-sub-link.enabled {
+  color: #cccccc;
+}
+
+.darkTheme .header-dropdown-sub-link.enabled:hover {
+  color: #1ec3fa;
 }
 
 .darkTheme .grp-menu-item button:hover, .darkTheme .grp-menu-item button:focus, .darkTheme .grp-menu-item button:active {
@@ -15098,11 +15128,27 @@ div:last-child .exchange-bordered {
   background-color: #6a6a6a;
 }
 
+.darkTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #1ec3fa;
+}
+
+.darkTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   display: inline;
+}
+
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
 }
 
 .rc-time-picker-panel {
@@ -15545,6 +15591,12 @@ div:last-child .exchange-bordered {
   background-color: #2196f3;
 }
 
+.lightTheme .modal#marketPicker,
+.lightTheme .modal#settingsModal {
+  background-color: #fff;
+  border: 1px solid black;
+}
+
 .lightTheme .modal {
   color: #3d3d3d;
   background-color: #dadada;
@@ -15831,6 +15883,14 @@ div:last-child .exchange-bordered {
 
 .lightTheme .header-container span.icon.lock-unlock > svg > path {
   fill: #2196f3;
+}
+
+.lightTheme .header-dropdown-sub-link.enabled {
+  color: #5c5c5c;
+}
+
+.lightTheme .header-dropdown-sub-link.enabled:hover {
+  color: #337ab7;
 }
 
 .lightTheme .grp-menu-item button:hover, .lightTheme .grp-menu-item button:focus, .lightTheme .grp-menu-item button:active {
@@ -17643,6 +17703,17 @@ div:last-child .exchange-bordered {
   background-color: #fff;
 }
 
+.lightTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #337ab7;
+}
+
+.lightTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
+}
+
 .lightTheme .change-up {
   font-weight: bold;
 }
@@ -17652,6 +17723,11 @@ div:last-child .exchange-bordered {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   display: inline;
+}
+
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
 }
 
 .rc-time-picker-panel {
@@ -18094,6 +18170,12 @@ div:last-child .exchange-bordered {
   background-color: #049cce;
 }
 
+.midnightTheme .modal#marketPicker,
+.midnightTheme .modal#settingsModal {
+  background-color: #191a1f;
+  border: 1px solid black;
+}
+
 .midnightTheme .modal {
   color: #fff;
   background-color: #27384b;
@@ -18380,6 +18462,14 @@ div:last-child .exchange-bordered {
 
 .midnightTheme .header-container span.icon.lock-unlock > svg > path {
   fill: #049cce;
+}
+
+.midnightTheme .header-dropdown-sub-link.enabled {
+  color: #adadad;
+}
+
+.midnightTheme .header-dropdown-sub-link.enabled:hover {
+  color: #049cce;
 }
 
 .midnightTheme .grp-menu-item button:hover, .midnightTheme .grp-menu-item button:focus, .midnightTheme .grp-menu-item button:active {
@@ -20192,11 +20282,27 @@ div:last-child .exchange-bordered {
   background-color: #353742;
 }
 
+.midnightTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #049cce;
+}
+
+.midnightTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
   font-weight: 400;
   display: inline;
+}
+
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
 }
 
 #content.win32 {
