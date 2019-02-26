@@ -11148,6 +11148,15 @@ input[type="text"].input-button {
   border-bottom-right-radius: 0 !important;
 }
 
+body .add-memo-btn.add-memo-btn {
+  padding: 0 !important;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  bottom: 8px;
+  left: -25px;
+}
+
 .header.menu-group {
   justify-content: flex-start;
 }
@@ -14178,9 +14187,9 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .showcases-grid--wrapper--item {
-  color: #cccccc;
+  color: #adadad;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
@@ -14236,6 +14245,10 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .showcases-grid--wrapper--item--wrapper--content--description {
   line-height: 1.5rem;
+}
+
+.darkTheme .exchange--chart-control {
+  background: #3f3f3f;
 }
 
 @media (max-width: 1150px) {
@@ -14311,14 +14324,14 @@ label.ant-checkbox-wrapper > span {
   height: 36px;
   padding: 0 12px;
   background-color: #3f3f3f;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .settings-input, .darkTheme .block-list li.with-dropdown > input.settings-input[type="text"], .lightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"], .midnightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"] {
   /* !important to overwrite styles for Inputs on User Settings. By default inputs take styles from
     .block-list and it uses on many places. To keep everything OK and do not break something I just do
     overwrite for Inputs on settings and keep default styles for inputs on another places. */
-  color: #cccccc !important;
+  color: #adadad !important;
   height: 36px !important;
   background-color: #3f3f3f !important;
   border-bottom: 0 !important;
@@ -14326,7 +14339,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .modal-separator {
-  border-color: #cccccc;
+  border-color: #adadad;
 }
 
 .darkTheme .positive {
@@ -14359,17 +14372,17 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .unlock_wallet_modal2 .upload-button span {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .unlock_wallet_modal2 .login-select {
-  color: #ffffff;
+  color: #e0e0e0;
   border-color: rgba(128, 128, 128, 0.45);
   background: #2d2d2d url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAGCAYAAAAVMmT4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4gUEEhssVJbYaQAAAHVJREFUGNN1z7ERgkAUBNAHnOUQGdCDRRAaGlwFVkDgGBFeEfZAaA2MY2AL3GCogvz47e78wnVOsl4y2LpWo3IsZb0gajWbMIiyvvI6P9VGQVQb3T1WcNJJhhIkg0n3s7CAUNjPuz9NN8HhG67xJ3AyuSyffgPoxSqQfV+TFgAAAABJRU5ErkJggg==") right 10px center no-repeat;
 }
 
 .darkTheme .unlock_wallet_modal2 .login-label {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .unlock_wallet_modal2 .themed-input {
@@ -14388,7 +14401,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .font-secondary {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme svg > path {
@@ -14396,7 +14409,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme #content-wrapper {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #2a2a2a;
 }
 
@@ -14415,7 +14428,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme *:not([class*="ant-"]) > label,
 .darkTheme *:not([class*="ant-"]) > label > span {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .label.success {
@@ -14434,7 +14447,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .nested-approval-state .tooltip {
-  text-decoration: underline dotted #ffffff;
+  text-decoration: underline dotted #e0e0e0;
 }
 
 .darkTheme .nested-approval-state .tooltip.error {
@@ -14485,12 +14498,12 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .notification {
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
   background-color: #6a6a6a !important;
 }
 
 .darkTheme .notification-dismiss {
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
   background-color: #7e7e7e !important;
 }
 
@@ -14543,7 +14556,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .json-inspector__key {
-  color: #cccccc !important;
+  color: #adadad !important;
 }
 
 .darkTheme h1,
@@ -14552,7 +14565,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme h4,
 .darkTheme h5,
 .darkTheme h6 {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .copyIcon {
@@ -14579,15 +14592,15 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .modal .close-button {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .modal .close-button:hover {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .modal .modal-header > h6 {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .modal .modal-header.has-error > h6 {
@@ -14595,12 +14608,12 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .modal .circle-wrapper .circle:before {
-  background-color: #ffffff;
+  background-color: #e0e0e0;
 }
 
 .darkTheme .modal .table > thead > tr > th,
 .darkTheme .modal .table > tbody > tr > td {
-  border-bottom-color: #b3b3b3;
+  border-bottom-color: #949494;
 }
 
 .darkTheme .modal span.send-name {
@@ -14608,24 +14621,24 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .icon > svg > path {
-  fill: #ffffff;
+  fill: #e0e0e0;
 }
 
 .darkTheme .footer {
-  color: #cccccc;
+  color: #adadad;
   background-color: #3f3f3f;
 }
 
 .darkTheme .footer svg > path {
-  fill: #cccccc;
+  fill: #adadad;
 }
 
 .darkTheme .footer .logo .version {
-  color: #b3b3b3;
+  color: #949494;
 }
 
 .darkTheme .node-access-popup {
-  color: #cccccc;
+  color: #adadad;
   background-color: #3f3f3f;
   border: 1px solid black;
 }
@@ -14648,7 +14661,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .tabs {
-  color: #cccccc;
+  color: #adadad;
   background-color: #2a2a2a;
 }
 
@@ -14713,12 +14726,12 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .button.outline {
-  color: #cccccc;
-  border-color: #cccccc;
+  color: #adadad;
+  border-color: #adadad;
 }
 
 .darkTheme .button.outline span {
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
 }
 
 .darkTheme .button.outline:hover {
@@ -14832,7 +14845,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .header div.account-drop-down ul.dropdown.header-menu > li > div:first-of-type > span.icon > svg > path {
-  fill: #ffffff;
+  fill: #e0e0e0;
 }
 
 .darkTheme .header div.account-drop-down ul.dropdown.header-menu > li:hover, .darkTheme .header div.account-drop-down ul.dropdown.header-menu > li.active {
@@ -14867,7 +14880,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .header-dropdown-sub-link.enabled {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .header-dropdown-sub-link.enabled:hover {
@@ -14884,11 +14897,11 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .grp-menu-item > a,
 .darkTheme .grp-menu-item .button {
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
 }
 
 .darkTheme .header .logo {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .header-right-menu li.current-account > a {
@@ -14910,7 +14923,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .settings-cog svg > path {
-  fill: #cccccc;
+  fill: #adadad;
 }
 
 .darkTheme .card-section {
@@ -14926,7 +14939,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .card {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #3f3f3f;
   background-color: #3f3f3f;
 }
@@ -14940,11 +14953,11 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .card a {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .card .card-divider {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #6a6a6a;
 }
 
@@ -14954,7 +14967,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .table > thead > tr > th {
   border-bottom-color: #444;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .table > tbody > tr > td {
@@ -14980,7 +14993,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .block-list {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .block-list li {
@@ -14988,7 +15001,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .block-list li > a {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .block-list li > a:hover,
@@ -15006,7 +15019,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .block-list header {
   margin-left: 0;
   margin-bottom: 1rem;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .block-list.no-border-bottom li {
@@ -15015,7 +15028,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .right-label,
 .darkTheme .left-label {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .right-label > span,
@@ -15024,11 +15037,11 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme div.input-wrapper > div.input-right-symbol {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .dropdown-wrapper > div:first-of-type {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .dropdown-wrapper ul.dropdown {
@@ -15057,11 +15070,11 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .dropdown-wrapper:after {
   /* Little arrow */
-  border-color: #cccccc transparent;
+  border-color: #adadad transparent;
 }
 
 .darkTheme .account-image .icon:hover svg path {
-  fill: #bfbfbf;
+  fill: #a0a0a0;
 }
 
 .darkTheme .account-selector .account-image > canvas,
@@ -15071,12 +15084,12 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .account-selector .account-image .icon > svg path,
 .darkTheme .pubkey-input .account-image .icon > svg path {
-  fill: #ffffff;
+  fill: #e0e0e0;
 }
 
 .darkTheme .account-selector .account-image .icon:hover svg path,
 .darkTheme .pubkey-input .account-image .icon:hover svg path {
-  fill: #bfbfbf;
+  fill: #a0a0a0;
 }
 
 .darkTheme .has-error,
@@ -15118,7 +15131,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #2d2d2d;
   border: 0;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme input[type="text"]:not([class*="ant-"]):hover, .darkTheme input[type="text"]:not([class*="ant-"]):focus, .darkTheme input[type="text"]:not([class*="ant-"]):active, .darkTheme input[type="text"]:not([class*="ant-"]):disabled,
@@ -15220,7 +15233,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .typeahead > div > div > div {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: transparent !important;
 }
 
@@ -15237,7 +15250,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .typeahead .typeahead__innerItem {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .typeahead .typeahead__innerItem > .typeahead__innerItem__highlight {
@@ -15245,12 +15258,12 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .typeahead .typeahead__innerItem > .typeahead__innerItem__disabled {
-  color: #b3b3b3;
+  color: #949494;
 }
 
 .darkTheme ul.button-group.segmented > li.is-active > a {
   background: #2d2d2d;
-  color: #ffffff;
+  color: #e0e0e0;
   border-bottom: 1px solid #049cce;
 }
 
@@ -15259,16 +15272,16 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .tabs > .tab-item {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .tabs > .tab-item.is-active {
-  color: #ffffff;
+  color: #e0e0e0;
   border-bottom-color: #049cce;
 }
 
 .darkTheme .tabs > .tab-item:hover, .darkTheme .tabs > .tab-item:focus, .darkTheme .tabs > .tab-item:active {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .tab-content {
@@ -15280,7 +15293,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .tab-content div.header-selector .selector .inactive {
-  color: #b3b3b3;
+  color: #949494;
 }
 
 .darkTheme .tab-content.explorer-tab-content {
@@ -15351,7 +15364,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .account-left-panel h5 {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-left-panel h6 {
@@ -15365,12 +15378,12 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .account-left-panel .advanced-toggle > a {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-left-panel a.pay-button {
   background-color: #2a2a2a;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-left-panel a.pay-button:hover {
@@ -15386,11 +15399,11 @@ label.ant-checkbox-wrapper > span {
   font-family: "Roboto-Medium", arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-info {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-info > p:first-of-type {
@@ -15402,11 +15415,11 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .account-info > div.secondary > span:first-of-type {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .account-info > div.secondary > span:last-of-type {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .my-account h5,
@@ -15437,7 +15450,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .invoice .item-description {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .facolor-success {
@@ -15461,7 +15474,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .facolor-fee {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .error-area {
@@ -15469,7 +15482,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .account-selector .right-label {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .icon.success {
@@ -15489,7 +15502,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .circle-wrapper .circle:before {
-  background-color: #cccccc;
+  background-color: #adadad;
 }
 
 .darkTheme .chart-zoom-dropdown {
@@ -15534,7 +15547,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .memo {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .help-content-layout div {
@@ -15549,11 +15562,11 @@ label.ant-checkbox-wrapper > span {
   padding-top: 3px;
   padding-left: 5px;
   background: none;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .help-content-layout div .help-toc ul li a {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .help-content-layout div .help-toc ul li a:hover {
@@ -15578,7 +15591,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .help-content-layout div .help-toc h4 {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .help-content-layout div .help-toc a {
@@ -15616,32 +15629,32 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .help-content code {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: transparent;
   border-color: #444;
 }
 
 .darkTheme .help-content blockquote {
-  color: #cccccc;
+  color: #adadad;
   border-left: 3px solid #3f3f3f;
 }
 
 .darkTheme .click-for-help {
-  border-bottom-color: #cccccc !important;
+  border-bottom-color: #adadad !important;
 }
 
 .darkTheme section.block-list input[type="text"],
 .darkTheme section.block-list input[type="password"] {
   border-bottom: 1px solid #3f3f3f;
   background-color: transparent;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme section.block-list input[type="text"]:hover, .darkTheme section.block-list input[type="text"]:active, .darkTheme section.block-list input[type="text"]:focus,
 .darkTheme section.block-list input[type="password"]:hover,
 .darkTheme section.block-list input[type="password"]:active,
 .darkTheme section.block-list input[type="password"]:focus {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: transparent;
   border-bottom: 1px solid #3f3f3f;
 }
@@ -15685,14 +15698,14 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .menu-group.primary .menu-bar li > a:hover,
 .darkTheme .menu-group.primary .menu-bar li > a.active {
   background-color: #2a2a2a !important;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .menu-group.primary li > a:hover .icon > svg > path,
 .darkTheme .menu-group.primary li > a.active .icon > svg > path,
 .darkTheme .menu-group.primary .menu-bar li > a:hover .icon > svg > path,
 .darkTheme .menu-group.primary .menu-bar li > a.active .icon > svg > path {
-  fill: #ffffff;
+  fill: #e0e0e0;
 }
 
 .darkTheme .asset-card .card-divider {
@@ -15705,7 +15718,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .mymarkets-header.inactive {
   border-bottom-color: transparent;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme div.exchange-content-header {
@@ -15736,7 +15749,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .orderHistoryBid > span.price-decimal,
 .darkTheme .orderHistoryBid > span > span.price-decimal {
-  color: #ffffff;
+  color: #e0e0e0;
   opacity: 0.6;
 }
 
@@ -15751,7 +15764,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .orderHistoryAsk > span.price-decimal,
 .darkTheme .orderHistoryAsk > span > span.price-decimal {
-  color: #ffffff;
+  color: #e0e0e0;
   opacity: 0.6;
 }
 
@@ -15766,7 +15779,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .orderHistoryCall > span.price-decimal,
 .darkTheme .orderHistoryCall > span > span.price-decimal {
-  color: #ffffff;
+  color: #e0e0e0;
   opacity: 0.6;
 }
 
@@ -15802,7 +15815,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .sticky-table .sticky-table-column,
 .darkTheme .sticky-table .sticky-table-header,
 .darkTheme .sticky-table .sticky-table-corner {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #2a2a2a;
 }
 
@@ -15811,11 +15824,11 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .left-order-book .orderbook-center-title {
-  color: #b3b3b3;
+  color: #949494;
 }
 
 .darkTheme .left-order-book .spread .spread-value {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .sticky-table-header {
@@ -15853,7 +15866,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .market-stats .stat .value {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme li.stat.input:hover {
@@ -15893,14 +15906,14 @@ label.ant-checkbox-wrapper > span {
   height: 1.75rem;
   line-height: 1.75rem;
   border: none;
-  color: #ffffff;
+  color: #e0e0e0;
   background-size: 8px 8px;
   background-color: #484848;
   font-size: 12px;
 }
 
 .darkTheme .buy-sell-box > select > option {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #484848;
 }
 
@@ -15933,36 +15946,36 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .bucket-option {
-  color: #cccccc;
+  color: #adadad;
   background-color: #3f3f3f;
 }
 
 .darkTheme .bucket-option:hover {
-  color: white;
+  color: #fafafa;
   background-color: #595959;
 }
 
 .darkTheme .active-bucket {
-  color: white;
+  color: #fafafa;
   background-color: #595959;
 }
 
 .darkTheme li.stat.clickable {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .mymarkets-tabs > li {
-  color: #cccccc;
+  color: #adadad;
   background-color: #3f3f3f;
 }
 
 .darkTheme .mymarkets-tabs > li:hover {
-  color: white;
+  color: #fafafa;
   background-color: #595959;
 }
 
 .darkTheme .mymarkets-tabs > li.active {
-  color: white;
+  color: #fafafa;
   background-color: #595959;
 }
 
@@ -15973,7 +15986,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme select.bts-select,
 .darkTheme select.native-coin-types,
 .darkTheme select.external-coin-types {
-  color: #cccccc;
+  color: #adadad;
   background-color: #6a6a6a;
   border: 0;
 }
@@ -16017,23 +16030,23 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .settings-menu > ul > li {
   border-radius: 2px;
-  color: #cccccc;
+  color: #adadad;
   padding: 3px 11px;
   margin: 5px;
 }
 
 .darkTheme .settings-menu > ul > li:hover {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #373737;
 }
 
 .darkTheme .settings-menu > ul > li.active {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #373737;
 }
 
 .darkTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme .settings--notifications .settings--notifications--no-browser-support {
@@ -16078,12 +16091,12 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .nodes-header.inactive {
   border-bottom-color: transparent;
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme div.custom-dropdown-content {
   background: #3f3f3f;
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme div.custom-dropdown-content > ul > li.clickable:hover {
@@ -16096,8 +16109,8 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .blocktrades-bridge input,
 .darkTheme .blocktrades-bridge select {
-  color: #cccccc;
-  border: 1px solid #cccccc;
+  color: #adadad;
+  border: 1px solid #adadad;
   background-color: #3f3f3f !important;
 }
 
@@ -16109,15 +16122,15 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .blocktrades-bridge input > option,
 .darkTheme .blocktrades-bridge select > option {
-  color: #ffffff;
+  color: #e0e0e0;
   background-color: #3f3f3f !important;
 }
 
 .darkTheme .blocktrades-bridge input:hover, .darkTheme .blocktrades-bridge input:focus,
 .darkTheme .blocktrades-bridge select:hover,
 .darkTheme .blocktrades-bridge select:focus {
-  color: #ffffff;
-  border: 2px solid #ffffff;
+  color: #e0e0e0;
+  border: 2px solid #e0e0e0;
 }
 
 .darkTheme .SimpleTrade__modal .Modal__header {
@@ -16129,7 +16142,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme ul.dashboard-links > li.active {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .switch input:checked + label {
@@ -16142,7 +16155,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme div.ok-indicator {
-  color: #cccccc;
+  color: #adadad;
 }
 
 .darkTheme div.ok-indicator.success {
@@ -16158,7 +16171,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .login-selector > div.box a {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme table.table > tbody > tr.in-use > td:nth-child(2) {
@@ -16294,7 +16307,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme div.account-creation div.button > a {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme span.danger {
@@ -16342,7 +16355,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme tr > td > a.primary-text {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .darkTheme .pulsate {
@@ -16565,6 +16578,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .darkTheme .expiration-datetime-picker input {
@@ -16589,7 +16603,7 @@ label.ant-checkbox-wrapper > span {
   padding: 0;
   background: transparent;
   border: 0;
-  color: #ffffff;
+  color: #e0e0e0;
   border-bottom: 1px dotted #a09f9f;
   margin: 0 0 1px;
   font-size: 90%;
@@ -16674,7 +16688,7 @@ label.ant-checkbox-wrapper > span {
   padding: 0;
   background: transparent;
   border: 0;
-  color: #ffffff;
+  color: #e0e0e0;
   border-bottom: 1px dotted #a09f9f;
   font-size: 0.7rem;
   height: 17px;
@@ -17071,7 +17085,7 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .showcases-grid--wrapper--item {
   color: #5c5c5c;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
@@ -17127,6 +17141,10 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .showcases-grid--wrapper--item--wrapper--content--description {
   line-height: 1.5rem;
+}
+
+.lightTheme .exchange--chart-control {
+  background: #e5e6e4;
 }
 
 @media (max-width: 1150px) {
@@ -19456,6 +19474,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .lightTheme .expiration-datetime-picker input {
@@ -19966,7 +19985,7 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .showcases-grid--wrapper--item {
   color: #adadad;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
@@ -20022,6 +20041,10 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .showcases-grid--wrapper--item--wrapper--content--description {
   line-height: 1.5rem;
+}
+
+.midnightTheme .exchange--chart-control {
+  background: #2c2e37;
 }
 
 @media (max-width: 1150px) {
@@ -22351,6 +22374,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .midnightTheme .expiration-datetime-picker input {
