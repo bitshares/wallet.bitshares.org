@@ -1,0 +1,12 @@
+.paginated-list .ant-table-body {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.paginated-list .ant-table td {
+  white-space: nowrap;
+}
+
+
+/*# sourceMappingURL=account~dashboard-accounts~deposit-withdraw~transfer.js.map*/
