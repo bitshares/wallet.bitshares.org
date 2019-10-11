@@ -15699,6 +15699,63 @@ label.ant-checkbox-wrapper > span {
   background-color: #2a2a2a;
 }
 
+.darkTheme div.header-selector > .filter {
+  margin-right: 1rem;
+}
+
+.darkTheme div.header-selector > .filter input {
+  margin: 0;
+  height: 2rem;
+  padding: 0 10px;
+}
+
+.darkTheme div.header-selector > .selector div {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.darkTheme div.header-selector > .selector div:nth-of-type(n + 1) {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+
+.darkTheme div.header-selector > .selector div:hover.inactive {
+  color: inherit;
+}
+
+.darkTheme div.header-selector > .selector div:last-of-type {
+  border-right: 0px;
+}
+
+.darkTheme div.header-selector > .group-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.darkTheme div.header-selector > .filter-block {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.darkTheme div.header-selector > .filter-block > .filter {
+  margin-right: 10px;
+}
+
+.darkTheme div.header-selector > .action-buttons {
+  float: right;
+}
+
+.darkTheme div.header-selector > .header-selector--error {
+  color: red;
+  line-height: 2rem;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+
 .darkTheme .depthchart {
   background-color: #2a2a2a;
 }
@@ -18733,6 +18790,63 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .tab-content.explorer-tab-content {
   background-color: #fff;
+}
+
+.lightTheme div.header-selector > .filter {
+  margin-right: 1rem;
+}
+
+.lightTheme div.header-selector > .filter input {
+  margin: 0;
+  height: 2rem;
+  padding: 0 10px;
+}
+
+.lightTheme div.header-selector > .selector div {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.lightTheme div.header-selector > .selector div:nth-of-type(n + 1) {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+
+.lightTheme div.header-selector > .selector div:hover.inactive {
+  color: inherit;
+}
+
+.lightTheme div.header-selector > .selector div:last-of-type {
+  border-right: 0px;
+}
+
+.lightTheme div.header-selector > .group-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.lightTheme div.header-selector > .filter-block {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.lightTheme div.header-selector > .filter-block > .filter {
+  margin-right: 10px;
+}
+
+.lightTheme div.header-selector > .action-buttons {
+  float: right;
+}
+
+.lightTheme div.header-selector > .header-selector--error {
+  color: red;
+  line-height: 2rem;
+  vertical-align: middle;
+  margin-left: 1rem;
 }
 
 .lightTheme .depthchart {
@@ -21782,6 +21896,63 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .tab-content.explorer-tab-content {
   background-color: #212e3c;
+}
+
+.midnightTheme div.header-selector > .filter {
+  margin-right: 1rem;
+}
+
+.midnightTheme div.header-selector > .filter input {
+  margin: 0;
+  height: 2rem;
+  padding: 0 10px;
+}
+
+.midnightTheme div.header-selector > .selector div {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.midnightTheme div.header-selector > .selector div:nth-of-type(n + 1) {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
+
+.midnightTheme div.header-selector > .selector div:hover.inactive {
+  color: inherit;
+}
+
+.midnightTheme div.header-selector > .selector div:last-of-type {
+  border-right: 0px;
+}
+
+.midnightTheme div.header-selector > .group-by {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.midnightTheme div.header-selector > .filter-block {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.midnightTheme div.header-selector > .filter-block > .filter {
+  margin-right: 10px;
+}
+
+.midnightTheme div.header-selector > .action-buttons {
+  float: right;
+}
+
+.midnightTheme div.header-selector > .header-selector--error {
+  color: red;
+  line-height: 2rem;
+  vertical-align: middle;
+  margin-left: 1rem;
 }
 
 .midnightTheme .depthchart {
