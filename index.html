@@ -1,22 +1,121 @@
+<!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Wallet.bitshares.org Maintenance</title>
-</head>
-<body>
-<p>Wallet.bitshares.org is under maintenance.</p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="format-detection" content="telephone=no">
+    <title>BitShares 5.0.210216</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob:; worker-src 'self' blob:; script-src https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/ 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' *; font-src 'self' data: https://at.alicdn.com; img-src 'self' data:;">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            background-color: #2a2a2a;
+        }
 
-<p>The development version is hosted at <a href="https://develop.bitshares.org/">https://develop.bitshares.org/</a>.</p>
+        .centerDiv {
+            width: 140px;
+            border-radius: 5px;
+            color: lightgrey;
+            padding: 10px;
+            height: 50px;
+            position: absolute;
+            margin-top: -25px;
+            margin-left: -70px;
+            top: 50%;
+            left: 50%;
+            font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+            Helvetica, Arial, "Lucida Grande", sans-serif;
+            font-weight: 100;
+            font-size: 44px;
+        }
+    </style>
+<link href="styles.d8cb691fb8c161d8e815.css" rel="stylesheet"><link href="app.4c09bbda3c141bb4a8d3.css" rel="stylesheet"></head>
 
-<p>An alternative wallet is hosted at <a href="https://pr.bts.mobi/">https://pr.bts.mobi/</a> temporarily.</p>
+<body spellcheck="false">
+    <main id="content">
+        <h1 class="centerDiv" style="">Loading...</h1>
+    </main>
+    <script>
+        function ieVersion(uaString) {
+            uaString = uaString || navigator.userAgent;
+            var match = /\b(MSIE |Trident.*?rv:|Edge\/)(\d+)/.exec(uaString);
+            if (match) return parseInt(match[2])
+        }
+        function createLinkTag() {
+            var link = document.createElement("link");
+            link.href = "outdated_browser.css";
+            link.type = "text/css";
+            link.rel = "stylesheet";
+            document.getElementsByTagName("head")[0].appendChild(link);
+        }
+        function renderOutdatedWarning() {
+            createLinkTag();
+            var container = document.createElement("div");
+            var header = document.createElement("div");
+            var body = document.createElement("div");
+            var footer = document.createElement("div");
+            var linkWrapper = document.createElement("div");
+            var link = document.createElement("a");
+            var closeLink = document.createElement("span");
+            var btn = document.createElement("button");
 
-<p>The mobile wallet is available at <a href="https://app.btspp.io/">https://app.btspp.io/</a>.</p>
+            var headerText = document.createTextNode("Unsupported browser");
+            var bodyText = document.createTextNode("The Browser you are using has not been fully tested to support the BitShares Wallet. We highly recommend that you backup your local wallet and import it using the Chrome Browser.");
+            var linkText = document.createTextNode("Google Chrome");
+            var closeLinkText = document.createTextNode("×");
+            var btnText = document.createTextNode("I UNDERSTAND");
 
-<p> For more info please consult in the Telegram chat groups. </p>
-<ul>
-<li> <a href="https://t.me/BitSharesDAC">https://t.me/BitSharesDAC</a>
-<li> <a href="https://t.me/BitSharesGroup">https://t.me/BitSharesGroup</a>
-<li> <a href="https://t.me/btsWalletHelp">https://t.me/btsWalletHelp</a>
-</ul>
-</body>
+            linkWrapper.classList.add("outdated-browser__link-wrapper");
+            link.appendChild(linkText);
+            link.setAttribute("href", "https://www.google.com/chrome/browser/desktop/");
+            link.setAttribute("target", "_blank");
+            linkWrapper.appendChild(link);
+
+            closeLink.classList.add("outdated-browser__close");
+            closeLink.appendChild(closeLinkText);
+
+
+            container.classList.add("outdated-browser");
+            header.appendChild(headerText);
+            header.appendChild(closeLink);
+            header.classList.add("outdated-browser__header");
+
+            body.appendChild(bodyText);
+            body.classList.add("outdated-browser__body");
+            body.appendChild(linkWrapper);
+
+
+            btn.classList.add("outdated-browser__btn");
+            btn.appendChild(btnText);
+
+            footer.classList.add("outdated-browser__footer");
+            footer.appendChild(btn);
+
+
+            container.appendChild(header);
+            container.appendChild(body);
+            container.appendChild(footer);
+
+            document.getElementById("content").appendChild(container);
+        }
+
+        if (ieVersion()) {
+            renderOutdatedWarning();
+            document.getElementById("content").removeChild(document.querySelector(".centerDiv"));
+
+            var closeBtn = document.querySelector(".outdated-browser__close");
+            var okBtn = document.querySelector(".outdated-browser__btn");
+            var container = document.querySelector(".outdated-browser");
+            closeBtn.addEventListener("click", function () {
+                container.classList.add("hidden");
+            });
+
+            okBtn.addEventListener("click", function () {
+                container.classList.add("hidden");
+            });
+        }
+    </script>
+<script type="text/javascript" src="styles.1d55a74bde7d163e3e59.js"></script><script type="text/javascript" src="vendor.69f460f031d874f0f6fc.js"></script><script type="text/javascript" src="app.bc0e47b9710cefe16a5c.js"></script></body>
+
 </html>

@@ -1,0 +1,22 @@
+tr.active-witness {
+  background-color: rgba(80, 210, 194, 0.4) !important;
+  transition: background-color 0.6s ease;
+}
+
+.clickable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.view-switcher {
+  padding-top: 1rem;
+  text-align: right;
+}
+
+.explore-witness--info {
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+
+
+/*# sourceMappingURL=explorer.js.map*/
