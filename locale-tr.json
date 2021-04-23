@@ -772,8 +772,8 @@
             }
         },
         "settle": "Ödeme",
-        "settle_better_marketprice": "Market price is in favour",
-        "settle_better_settleprice": "Settlement price is in favour",
+        "settle_better_marketprice": "Piyasa fiyatı lehte",
+        "settle_better_settleprice": "Uzlaşma fiyatı lehte",
         "settle_delay": "This asset will settle in %(hours)s hours",
         "settle_delay_globally_settled": "This asset will settle instantly",
         "settle_globally_settled": "Settle instantly",
