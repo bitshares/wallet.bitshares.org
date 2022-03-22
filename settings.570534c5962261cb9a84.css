@@ -1,0 +1,34 @@
+div > div.asset-list:first-child {
+  padding-top: 0.25rem;
+}
+
+div > div.asset-list {
+  padding-bottom: 0.25rem;
+}
+
+.importError {
+  margin-bottom: 16px;
+}
+.period-row {
+  margin-left: 10px;
+}
+
+.period-row:hover {
+  cursor: pointer;
+}
+
+.period-row.is-active {
+  text-decoration: underline;
+  text-underline-position: under;
+  cursor: pointer;
+}
+
+.preimage-row {
+  margin-top: 10px !important;
+}
+.preimage-row .button {
+  height: 32px;
+}
+.preimage-row .icon {
+  top: -5px;
+}

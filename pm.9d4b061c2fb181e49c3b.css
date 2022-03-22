@@ -1,0 +1,58 @@
+.paginated-list .ant-table-body {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+.paginated-list .ant-table td {
+  white-space: nowrap;
+}
+div.prediction-markets tr.selected-row a {
+  color: white;
+}
+div.prediction-markets div.header-selector {
+  padding: 1rem;
+}
+div.prediction-markets div.header-selector .filter-status {
+  color: darkgray;
+  float: right;
+  font-size: 14px;
+  line-height: 2rem;
+}
+div.prediction-markets span.search-input {
+  width: 220px;
+}
+div.prediction-markets div.ant-table-selection {
+  display: none;
+}
+div.prediction-markets span.supsub {
+  position: absolute;
+}
+div.prediction-markets span.supsub .subscript {
+  color: red;
+  display: block;
+  position: relative;
+  left: 2px;
+  top: 1rem;
+}
+div.prediction-markets span.supsub .superscript {
+  color: green;
+  display: block;
+  position: relative;
+  left: 2px;
+  top: 3px;
+}
+
+div.prediction-markets--create-prediction-market .ant-form-item {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+div.prediction-markets--add-prediction-offer .ant-form-item {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+div.prediction-markets--resolve-prediction-market-asset .ant-form-item {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
